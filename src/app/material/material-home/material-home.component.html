@@ -1,0 +1,42 @@
+<h2>material-home works!</h2>
+
+
+
+<h3>icon</h3>
+
+<md-icon>home</md-icon>
+
+<h3>Normal Buttons</h3>
+<div class="button-row">
+    <button md-button>Flat button</button>
+    <button md-button color="primary">Flat button</button>
+    <button md-button color="accent">Flat button</button>
+    <button md-button color="warn">Flat button</button>
+    <button md-raised-button>Raised button</button>
+    <button md-raised-button color="primary">Raised button</button>
+    <button md-raised-button color="accent">Raised button</button>
+    <button md-raised-button color="warn">Raised button</button>
+    <button md-fab><md-icon>check</md-icon></button>
+    <button md-fab color="primary"><md-icon>check</md-icon></button>
+    <button md-fab color="accent"><md-icon>check</md-icon></button>
+    <button md-fab color="warn"><md-icon>check</md-icon></button>
+    <button md-mini-fab><md-icon>check</md-icon></button>
+</div>
+
+<h3>Link Buttons</h3>
+<div class="example-button-row">
+    <a md-button routerLink=".">Flat button</a>
+    <a md-raised-button routerLink=".">Raised button</a>
+    <a md-fab routerLink="."><md-icon>check</md-icon></a>
+    <a md-mini-fab routerLink="."><md-icon>check</md-icon></a>
+</div>
+
+
+
+<h3>select</h3>
+
+<md-select placeholder="Favorite food">
+  <md-option *ngFor="let food of foods" [value]="food.value">
+    {{ food.viewValue }}
+  </md-option>
+</md-select>
