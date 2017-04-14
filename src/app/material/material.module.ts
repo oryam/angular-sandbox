@@ -11,10 +11,10 @@ import { CommonModule } from '@angular/common';
     //CompatibilityModule,
     
     //MdButtonToggleModule,
-    //MdButtonModule,
+    MdButtonModule,
     //MdCheckboxModule,
     //MdRadioModule,
-    //MdSelectModule,
+    MdSelectModule,
     //MdSlideToggleModule,
     //MdSliderModule,
     //MdSidenavModule,
@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
     //MdGridListModule,
     //MdCardModule,
     //MdChipsModule,
-    //MdIconModule,
+    MdIconModule,
     //MdProgressSpinnerModule,
     //MdProgressBarModule,
     //MdInputModule,
@@ -36,35 +36,36 @@ import { CommonModule } from '@angular/common';
     //MdAutocompleteModule,
     //StyleModule,
 } from '@angular/material';*/
+
 import { MaterialModule as MatModule } from '@angular/material';
 
 import { MaterialRoutingModule } from './material-routing.module';
-import { MaterialHomeComponent } from './material-home/material-home.component';
+import { MaterialHomeComponent } from './home/material-home.component';
 
-@NgModule({
-  imports: [
-    CommonModule,
+@NgModule( {
+    imports: [
+        CommonModule,
 /*
-    MdRippleModule,
-    RtlModule,
-    ObserveContentModule,
-    PortalModule,
-    OverlayModule,
-    A11yModule,
-    CompatibilityModule,
-
-    MdSelectModule,
-    MdButtonModule,
-    MdIconModule,
-    PlatformModule,
-    StyleModule,
+//        MdRippleModule,
+//        RtlModule,
+//        ObserveContentModule,
+//        PortalModule,
+//        OverlayModule,
+//        A11yModule,
+//        CompatibilityModule,
+//    
+        MdButtonModule,
+        MdSelectModule,
+        MdIconModule,
+//        PlatformModule,
+//        StyleModule,
 */
-    MatModule,
+        MatModule,
 
-    MaterialRoutingModule,
-  ],
-  declarations: [
-    MaterialHomeComponent,
-  ]
+        MaterialRoutingModule,
+    ],
+    declarations: [
+        MaterialHomeComponent,
+    ]
 })
 export class MaterialModule { }

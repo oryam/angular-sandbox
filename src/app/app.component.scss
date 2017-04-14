@@ -1,0 +1,18 @@
+.app {
+
+    .btn-menu {
+        border: 1px solid #6e74b9;
+        border-box: 4px;
+        border-radius: 4px;
+        padding: .4em;
+        margin: .1em;
+        color: #0071c3;
+        text-transform: uppercase;
+        text-decoration: none;
+        
+        &.active {
+            border-top: 4px solid #043896;
+        }
+    }
+
+}
