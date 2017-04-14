@@ -1,0 +1,33 @@
+# TODO
+
+- Add flex data grid
+    - http://wijmo.com/angular2/
+    - https://www.ag-grid.com
+    - prepare data sample, ready to user (sort, search)
+    - with large list of rows
+    - with pagin
+    - with search on table, filter on column
+    - with backend search/filter
+    - with sort on column
+    - with backend sort
+    - with drag-n-drop column
+    - with show/hide column
+    - with save settings
+    - with cell rendering
+    - with cell formatting (compatible with search/filter)
+-  Add select
+    - with large list
+    - with autocomplete
+- Add a form
+    - with validation on field
+    - with validation on form and fields dependencies
+    - with data picker / calendar
+- Add a popin
+    - minimize, close, move
+- Add a menu
+    - side
+    - minimize / small icon
+- Add desktop notification
+- Add push notification / websocket
+- Add offline mode
+- Add i18n
